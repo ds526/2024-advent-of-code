@@ -34,30 +34,9 @@ for i in range(0,len(values_1)):
         print(d)
     deltas.append(d)
 
+# Add up the deltas
 for i in deltas:
     sum+=i
 
 print(sum)
 exit()
-
-# list_1.sort()
-# list_2.sort()
-# deltas = []
-# d = 0
-# sum = 0
-
-# for i in range(0,len(list_1)):
-#     if list_1[i] < list_2[i]:
-#         print(list_2[i] - list_1[i])
-#         d = list_2[i] - list_1[i]
-#     else:
-#         print(list_1[i] - list_2[i])
-#         d = list_1[i] - list_2[i]
-#     deltas.append(d)
-
-# print("======")
-
-# for i in deltas:
-#     sum+=i
-
-# print(sum)
